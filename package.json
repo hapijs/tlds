@@ -1,7 +1,7 @@
 {
     "name": "@sideway/tlds",
     "description": "TLDS list for domain validation",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "repository": "git://github.com/sideway/tlds",
     "main": "./dist/index.js",
     "module": "./esm/index.js",
