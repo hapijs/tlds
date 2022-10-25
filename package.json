@@ -1,8 +1,8 @@
 {
-    "name": "@sideway/tlds",
+    "name": "@hapi/tlds",
     "description": "TLDS list for domain validation",
     "version": "1.0.0",
-    "repository": "git://github.com/sideway/tlds",
+    "repository": "git://github.com/hapijs/tlds",
     "main": "./dist/index.js",
     "module": "./esm/index.js",
     "typings": "./dist/index.d.ts",
@@ -33,7 +33,8 @@
     "scripts": {
         "test": "lab -t 100 -L",
         "test-cov-html": "lab -t 100 -L -r html -o coverage.html",
-        "dist": "rm -rf dist/* && rm -rf esm/* && tsc --module commonjs --outdir dist && tsc --module es6 --outdir esm",
+        "dist": "rm -rf dist esm && tsc --module commonjs --outdir dist && tsc --module es6 --outdir esm",
+        "prepublishOnly": "npm run dist",
         "format": "prettier --write '**/*.ts'"
     },
     "license": "BSD-3-Clause"

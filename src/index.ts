@@ -1488,7 +1488,7 @@ const TLDS: string[] = [
     'ZM',
     'ZONE',
     'ZUERICH',
-    'ZW'
+    'ZW',
 ];
 
 // Keep original as upper-case to make updating from source easier
