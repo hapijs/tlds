@@ -8,7 +8,5 @@
 
 ## Useful resources
 
--   [Documentation and API](https://joi.dev/module/tlds/)
--   [Versions status](https://joi.dev/resources/status/#tlds)
--   [Changelog](https://joi.dev/module/tlds/changelog/)
--   [Project policies](https://joi.dev/policies/)
+- [Versions status](https://joi.dev/resources/status/#tlds)
+- [Project policies](https://joi.dev/policies/)
