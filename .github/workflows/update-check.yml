@@ -31,3 +31,4 @@ jobs:
             branch: fix/auto-update-tlds
             body: Automated update of TLDs
             labels: bug
+            draft: true
