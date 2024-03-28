@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2024032200, Last Updated Fri Mar 22 07:07:01 2024 UTC
+// # Version 2024032800, Last Updated Thu Mar 28 07:07:01 2024 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -88,7 +88,6 @@ export const TLDS: string[] = [
     'AUTHOR',
     'AUTO',
     'AUTOS',
-    'AVIANCA',
     'AW',
     'AWS',
     'AX',
