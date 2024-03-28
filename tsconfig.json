@@ -24,5 +24,10 @@
         "dist",
         "esm",
         "test/*"
-    ]
+    ],
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
 }
