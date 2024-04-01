@@ -21,7 +21,7 @@ async function fetchTLDs() {
 
     for await (const line of rl) {
         if (lineNumber === 0) {
-            if (/^# Version \d{8}, Last Updated .+ UTC$/.test(line)) {
+            if (!/^# Version \d{10}, Last Updated .+ UTC$/.test(line)) {
                 throw new Error('Unexpected version line');
             }
             data.version = line;
