@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2024032800, Last Updated Thu Mar 28 07:07:01 2024 UTC
+// # Version 2024061801, Last Updated Wed Jun 19 07:07:01 2024 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -805,7 +805,6 @@ export const TLDS: string[] = [
     'NAB',
     'NAGOYA',
     'NAME',
-    'NATURA',
     'NAVY',
     'NBA',
     'NC',
