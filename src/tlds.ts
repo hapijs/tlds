@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2024061801, Last Updated Wed Jun 19 07:07:01 2024 UTC
+// # Version 2024071500, Last Updated Mon Jul 15 07:07:01 2024 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -1041,7 +1041,6 @@ export const TLDS: string[] = [
     'SH',
     'SHANGRILA',
     'SHARP',
-    'SHAW',
     'SHELL',
     'SHIA',
     'SHIKSHA',
