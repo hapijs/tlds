@@ -1,7 +1,7 @@
 import { expect } from '@hapi/code';
 import * as Lab from '@hapi/lab';
 
-import { tlds } from '../src';
+import { tlds } from '../src/index.js';
 
 const { describe, it } = (exports.lab = Lab.script());
 
