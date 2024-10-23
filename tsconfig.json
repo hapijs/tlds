@@ -1,29 +1,28 @@
 {
     "compilerOptions": {
         "target": "es2021",
-        "module": "es6",
-        "moduleResolution": "node",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
         "sourceMap": true,
         "declaration": true,
+        "declarationMap": true,
+        "inlineSources": true,
         "rootDir": "src",
-        "outDir": "esm",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
         "allowSyntheticDefaultImports": true,
+        "exactOptionalPropertyTypes": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "experimentalDecorators": true
     },
     "include": [
-        "*.ts",
-        "**/*.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "dist",
-        "esm",
-        "test/*"
+        "src/**/*.ts",
+        "test/**/*.ts"
     ],
     "ts-node": {
         "compilerOptions": {
