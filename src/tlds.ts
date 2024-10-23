@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2024071500, Last Updated Mon Jul 15 07:07:01 2024 UTC
+// # Version 2024102200, Last Updated Tue Oct 22 07:07:01 2024 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -300,7 +300,6 @@ export const TLDS: string[] = [
     'CYMRU',
     'CYOU',
     'CZ',
-    'DABUR',
     'DAD',
     'DANCE',
     'DATA',
