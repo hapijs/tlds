@@ -1,7 +1,7 @@
 import { execFileSync } from 'node:child_process';
 import { writeFile } from 'node:fs/promises';
 import { createInterface } from 'node:readline';
-import * as Wreck from '@hapi/wreck';
+import Wreck from '@hapi/wreck';
 
 const ianaUri = 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt';
 
