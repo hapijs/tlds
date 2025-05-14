@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2024102200, Last Updated Tue Oct 22 07:07:01 2024 UTC
+// # Version 2025051400, Last Updated Wed May 14 07:07:01 2025 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -121,7 +121,6 @@ export const TLDS: string[] = [
     'BEATS',
     'BEAUTY',
     'BEER',
-    'BENTLEY',
     'BERLIN',
     'BEST',
     'BESTBUY',
@@ -630,7 +629,6 @@ export const TLDS: string[] = [
     'KDDI',
     'KE',
     'KERRYHOTELS',
-    'KERRYLOGISTICS',
     'KERRYPROPERTIES',
     'KFH',
     'KG',
@@ -662,7 +660,6 @@ export const TLDS: string[] = [
     'LACAIXA',
     'LAMBORGHINI',
     'LAMER',
-    'LANCASTER',
     'LAND',
     'LANDROVER',
     'LANXESS',
@@ -694,7 +691,6 @@ export const TLDS: string[] = [
     'LIMO',
     'LINCOLN',
     'LINK',
-    'LIPSY',
     'LIVE',
     'LIVING',
     'LK',
