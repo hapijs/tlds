@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2025051400, Last Updated Wed May 14 07:07:01 2025 UTC
+// # Version 2025052000, Last Updated Tue May 20 07:07:01 2025 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -915,7 +915,6 @@ export const TLDS: string[] = [
     'PORN',
     'POST',
     'PR',
-    'PRAMERICA',
     'PRAXI',
     'PRESS',
     'PRIME',
