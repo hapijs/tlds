@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2025082700, Last Updated Wed Aug 27 07:07:02 2025 UTC
+// # Version 2025102200, Last Updated Wed Oct 22 07:07:01 2025 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -347,7 +347,6 @@ export const TLDS: string[] = [
     'DRIVE',
     'DTV',
     'DUBAI',
-    'DUNLOP',
     'DUPONT',
     'DURBAN',
     'DVAG',
