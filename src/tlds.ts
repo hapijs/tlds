@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2025102200, Last Updated Wed Oct 22 07:07:01 2025 UTC
+// # Version 2026020900, Last Updated Mon Feb  9 07:07:02 2026 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -489,7 +489,6 @@ export const TLDS: string[] = [
     'GOLD',
     'GOLDPOINT',
     'GOLF',
-    'GOO',
     'GOODYEAR',
     'GOOG',
     'GOOGLE',
