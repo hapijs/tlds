@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2026020900, Last Updated Mon Feb  9 07:07:02 2026 UTC
+// # Version 2026021600, Last Updated Mon Feb 16 07:07:01 2026 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -1252,7 +1252,6 @@ export const TLDS: string[] = [
     'WINE',
     'WINNERS',
     'WME',
-    'WOLTERSKLUWER',
     'WOODSIDE',
     'WORK',
     'WORKS',
