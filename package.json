@@ -1,16 +1,20 @@
 {
     "name": "@hapi/tlds",
-    "description": "TLDS list for domain validation",
     "version": "1.1.6",
+    "description": "TLDS list for domain validation",
+    "keywords": [
+        "domain",
+        "tlds"
+    ],
+    "license": "BSD-3-Clause",
     "repository": "git://github.com/hapijs/tlds",
+    "files": [
+        "dist"
+    ],
     "type": "module",
-    "tshy": {
-        "main": true,
-        "exports": {
-            "./package.json": "./package.json",
-            ".": "./src/index.ts"
-        }
-    },
+    "main": "./dist/commonjs/index.js",
+    "module": "./dist/esm/index.js",
+    "types": "./dist/commonjs/index.d.ts",
     "exports": {
         "./package.json": "./package.json",
         ".": {
@@ -24,40 +28,35 @@
             }
         }
     },
-    "main": "./dist/commonjs/index.js",
-    "module": "./dist/esm/index.js",
-    "types": "./dist/commonjs/index.d.ts",
-    "files": [
-        "dist"
-    ],
-    "keywords": [
-        "domain",
-        "tlds"
-    ],
-    "engines": {
-        "node": ">=14.0.0"
+    "scripts": {
+        "prepare": "tshy",
+        "test": "vitest run --coverage",
+        "typecheck": "tsc --noEmit",
+        "lint": "oxlint",
+        "fmt": "oxfmt --check",
+        "fmt:fix": "oxfmt",
+        "update-list": "node --loader ts-node/esm .github/scripts/update-list.ts"
     },
     "devDependencies": {
-        "@hapi/code": "^9.0.3",
-        "@hapi/eslint-plugin": "^7.0.0",
-        "@hapi/lab": "^26.0.0",
+        "@hapi/oxc-plugin": "^1.0.0",
         "@hapi/wreck": "^18.1.0",
-        "@types/node": "^18.19.59",
-        "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-prettier": "^5.2.1",
-        "globals": "^15.11.0",
-        "prettier": "^3.3.3",
+        "@types/node": "^22",
+        "@vitest/coverage-v8": "^3.2.1",
+        "oxfmt": "^0.53.0",
+        "oxlint": "^1.68.0",
         "ts-node": "^10.9.2",
         "tshy": "^2.0.1",
         "typescript": "^5.6.3",
-        "typescript-eslint": "^8.11.0"
+        "vitest": "^3.2.1"
     },
-    "scripts": {
-        "prepare": "tshy",
-        "test": "lab -t 100 -L --typescript",
-        "test-cov-html": "lab -t 100 -L -r html -o coverage.html",
-        "format": "prettier --write '**/*.{cjs,ts,md}'",
-        "update-list": "node --loader ts-node/esm .github/scripts/update-list.ts"
+    "tshy": {
+        "exports": {
+            ".": "./src/index.ts",
+            "./package.json": "./package.json"
+        },
+        "main": true
     },
-    "license": "BSD-3-Clause"
+    "engines": {
+        "node": ">=14.0.0"
+    }
 }
