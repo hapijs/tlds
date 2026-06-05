@@ -4,13 +4,9 @@ export default defineConfig({
     test: {
         environment: 'node',
         include: ['test/**/*.ts'],
-        typecheck: {
-            enabled: true,
-            include: ['test/**/*.ts'],
-        },
         coverage: {
             provider: 'v8',
-            include: ['src/**'],
+            include: ['lib/**'],
             thresholds: {
                 functions: 100,
                 lines: 100,

@@ -1,24 +1,29 @@
 {
     "compilerOptions": {
-        "target": "es2021",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "sourceMap": true,
+        "allowImportingTsExtensions": true,
+        "allowSyntheticDefaultImports": true,
         "declaration": true,
         "declarationMap": true,
-        "inlineSources": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        "allowSyntheticDefaultImports": true,
+        "emitDeclarationOnly": false,
+        "erasableSyntaxOnly": true,
         "exactOptionalPropertyTypes": true,
+        "forceConsistentCasingInFileNames": true,
+        "inlineSources": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true,
         "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
-        "noUnusedParameters": true
+        "noUnusedParameters": true,
+        "rewriteRelativeImportExtensions": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "ESNext"
     },
-    "include": ["src/**/*.ts", "test/**/*.ts"],
+    "include": ["lib", "test"],
     "ts-node": {
         "esm": true
     }

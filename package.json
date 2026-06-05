@@ -12,29 +12,20 @@
         "dist"
     ],
     "type": "module",
-    "main": "./dist/commonjs/index.js",
-    "module": "./dist/esm/index.js",
-    "types": "./dist/commonjs/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "exports": {
-        "./package.json": "./package.json",
-        ".": {
-            "import": {
-                "types": "./dist/esm/index.d.ts",
-                "default": "./dist/esm/index.js"
-            },
-            "require": {
-                "types": "./dist/commonjs/index.d.ts",
-                "default": "./dist/commonjs/index.js"
-            }
-        }
+        ".": "./dist/index.js",
+        "./package.json": "./package.json"
     },
     "scripts": {
-        "prepare": "tshy",
         "test": "vitest run --coverage",
         "typecheck": "tsc --noEmit",
         "lint": "oxlint",
         "fmt": "oxfmt --check",
         "fmt:fix": "oxfmt",
+        "build": "tsdown",
         "update-list": "node --loader ts-node/esm .github/scripts/update-list.ts"
     },
     "devDependencies": {
@@ -45,18 +36,11 @@
         "oxfmt": "^0.53.0",
         "oxlint": "^1.68.0",
         "ts-node": "^10.9.2",
-        "tshy": "^2.0.1",
-        "typescript": "^5.6.3",
+        "tsdown": "^0.13.3",
+        "typescript": "^5.8.2",
         "vitest": "^3.2.1"
     },
-    "tshy": {
-        "exports": {
-            ".": "./src/index.ts",
-            "./package.json": "./package.json"
-        },
-        "main": true
-    },
     "engines": {
-        "node": ">=14.0.0"
+        "node": ">=22"
     }
 }

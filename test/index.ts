@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { tlds } from '../src/index.js';
+import { tlds } from '../lib/index.ts';
 
 describe('email', () => {
     it('available as direct require', () => {
