@@ -1,3 +1,3 @@
 import { TLDS } from './tlds.js';
 
-export const tlds = new Set(TLDS.map((tld) => tld.toLowerCase()));
+export const tlds: Set<string> = new Set(TLDS.map((tld) => tld.toLowerCase()));
