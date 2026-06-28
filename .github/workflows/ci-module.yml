@@ -1,17 +1,17 @@
 name: ci
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
-      - ready_for_review
-  workflow_dispatch:
+    push:
+        branches:
+            - main
+    pull_request:
+        types:
+            - opened
+            - synchronize
+            - reopened
+            - ready_for_review
+    workflow_dispatch:
 
 jobs:
-  test:
-    uses: hapijs/.github/.github/workflows/ci-module.yml@min-node-18-hapi-21
+    test:
+        uses: hapijs/.github/.github/workflows/ci-module.yml@min-node-22-hapi-21

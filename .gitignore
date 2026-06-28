@@ -3,7 +3,7 @@
 **/pnpm-lock.yaml
 **/yarn.lock
 
-coverage.*
+coverage
 
 **/.DS_Store
 **/._*
@@ -14,6 +14,4 @@ coverage.*
 **/.vscode
 **/.idea
 
-.tshy
 dist
-esm
