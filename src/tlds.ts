@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2026061000, Last Updated Wed Jun 10 07:07:01 2026 UTC
+// # Version 2026082200, Last Updated Sat Aug 22 07:07:01 2026 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -1236,6 +1236,7 @@ export const TLDS: string[] = [
     'WATCHES',
     'WEATHER',
     'WEATHERCHANNEL',
+    'WEB',
     'WEBCAM',
     'WEBER',
     'WEBSITE',
