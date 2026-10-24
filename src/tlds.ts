@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2026082200, Last Updated Sat Aug 22 07:07:01 2026 UTC
+// # Version 2026102300, Last Updated Fri Oct 23 07:07:01 2026 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -622,7 +622,6 @@ export const TLDS: string[] = [
     'JPMORGAN',
     'JPRS',
     'JUEGOS',
-    'JUNIPER',
     'KAUFEN',
     'KDDI',
     'KE',
