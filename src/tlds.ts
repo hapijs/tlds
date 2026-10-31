@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2026102700, Last Updated Tue Oct 27 07:07:01 2026 UTC
+// # Version 2026103000, Last Updated Fri Oct 30 07:07:01 2026 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -525,7 +525,6 @@ export const TLDS: string[] = [
     'HEALTH',
     'HEALTHCARE',
     'HELP',
-    'HELSINKI',
     'HERE',
     'HERMES',
     'HIPHOP',
