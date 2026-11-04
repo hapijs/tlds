@@ -21,5 +21,6 @@
         "sourceMap": true,
         "strict": true,
         "target": "ESNext"
-    }
+    },
+    "exclude": ["coverage", "dist", "node_modules"]
 }
