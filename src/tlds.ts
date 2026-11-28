@@ -1,5 +1,5 @@
 // https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-// # Version 2026110300, Last Updated Tue Nov  3 07:07:01 2026 UTC
+// # Version 2026112700, Last Updated Fri Nov 27 07:07:01 2026 UTC
 
 export const TLDS: string[] = [
     'AAA',
@@ -1262,7 +1262,6 @@ export const TLDS: string[] = [
     'WTF',
     'XBOX',
     'XEROX',
-    'XIHUAN',
     'XIN',
     'XN--11B4C3D',
     'XN--1CK2E1B',
